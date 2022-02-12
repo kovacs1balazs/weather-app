@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Team V - Weather app</title>
+
+    <link rel="icon" type="image/png" href="./icon/favic.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container" id="very-specific-design">
+        <h1>Team V - Weather app</h1>
+        <div class="selectCity">
+            <input list="locationSelector" id="locationInput" value="Select location:">
+            <button title="Use my location"><img src="/icon/map.png" alt="button" width="48px"></button>
+            <datalist id="locationSelector">
+            </datalist>
+        </div>
+
+        <div id="resultsBox">
+            <div id="results">
+                <div id="loc"></div>
+                <div id="temp"></div>
+                <div id="sky">
+                    <img id="icon" src="" alt="">
+                    <div id="condition"></div>
+                </div>
+                <div id="hum"></div>
+                <div id="windKm"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
